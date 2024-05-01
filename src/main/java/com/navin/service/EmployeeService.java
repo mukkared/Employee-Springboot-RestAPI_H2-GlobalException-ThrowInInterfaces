@@ -10,7 +10,7 @@ public interface EmployeeService {
 
 	public List<Employee> getAllEmployees() throws ResourceNotFoundException;
 
-	public Employee getEmployeeById(Long employeeId) throws ResourceNotFoundException;
+	public Employee getEmployeeById(Long employeeId);// throws ResourceNotFoundException;
 
 	public Employee createEmployee(Employee employee) throws ResourceNotFoundException;
 
